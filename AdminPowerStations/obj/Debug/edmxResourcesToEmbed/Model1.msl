@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PowerStations_datModelStoreContainer" CdmEntityContainer="PowerStations_datEntities">
+    <EntitySetMapping Name="PowerReading00">
+      <EntityTypeMapping TypeName="PowerStations_datModel.PowerReading00">
+        <MappingFragment StoreEntitySet="PowerReading00">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ReadingMinute" ColumnName="ReadingMinute" />
+          <ScalarProperty Name="ReadingSecond" ColumnName="ReadingSecond" />
+          <ScalarProperty Name="Station01PowerUsage" ColumnName="Station01PowerUsage" />
+          <ScalarProperty Name="Station02PowerUsage" ColumnName="Station02PowerUsage" />
+          <ScalarProperty Name="Station03PowerUsage" ColumnName="Station03PowerUsage" />
+          <ScalarProperty Name="Station04PowerUsage" ColumnName="Station04PowerUsage" />
+          <ScalarProperty Name="Station05PowerUsage" ColumnName="Station05PowerUsage" />
+          <ScalarProperty Name="Station06PowerUsage" ColumnName="Station06PowerUsage" />
+          <ScalarProperty Name="Station07PowerUsage" ColumnName="Station07PowerUsage" />
+          <ScalarProperty Name="Station08PowerUsage" ColumnName="Station08PowerUsage" />
+          <ScalarProperty Name="Station09PowerUsage" ColumnName="Station09PowerUsage" />
+          <ScalarProperty Name="Station10PowerUsage" ColumnName="Station10PowerUsage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PowerStations">
+      <EntityTypeMapping TypeName="PowerStations_datModel.PowerStation">
+        <MappingFragment StoreEntitySet="PowerStation">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="Online" ColumnName="Online" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,70 @@
+﻿@model AdminPowerStations.Models.Home
+
+@{
+	ViewBag.Title = "Power Stations";
+}
+
+<h2>Power Stations Home</h2>
+<p>Welcome to Phil B's power stations simulation application. This application provides:</p>
+<ol>
+	<li>Functions below for the test database. It contains simulated readings for ten power stations.</li>
+	<li>
+		A WCF service to read power station information from the test database. WPF project 'UsePowerService' will use this service
+		to display readings every second.
+		@*Sample URI to show readings at 12:45 PM:
+			<ul>http://localhost:65094/APIs/PowerService.svc/Stations/All/12/45/0</ul>*@
+	</li>
+</ol>
+<p>
+	NOTE, power station '4' (for Central Vancouver) will include values in the 'high range'.
+	This will make the 'UsePowerService' project show what happens when high values are detected (she's going to blow!).
+</p>
+<br />
+<p>The database currently has <b><mark>@Model.TotalDbRows.ToString("N0")</mark></b> records.</p>
+
+@using (Html.BeginForm("Populate", "Home", FormMethod.Get))
+{
+	@Html.AntiForgeryToken()
+
+	<div class="form-horizontal DbOption">
+		<br />
+		<h4>Populate Database</h4>
+		<p>
+			If the above number shows 0 records in the database, click here to populate. Randomly generated numbers
+			will provide data for every second for a 24-hour period for 10 power stations.
+		</p>
+		<div class="form-group">
+			<div class="col-md-offset-2 col-md-10">
+				<input type="submit" value="Populate Database" class="btn btn-primary" onclick="ShowProgressMessage()" />
+			</div>
+		</div>
+		<br />
+	</div>
+	<br />
+}
+
+@using (Html.BeginForm("DeleteAllRows", "Home", FormMethod.Get))
+{
+	@Html.AntiForgeryToken()
+
+	<div class="form-horizontal DbOption">
+		<br />
+		<h4>Delete Database Rows</h4>
+		<p>When done testing, click here to free up room in the SQL local database.</p>
+		<div class="form-group">
+			<div class="col-md-offset-2 col-md-10">
+				<input type="submit" value="Delete All Rows" class="btn btn-primary" onclick="ShowProgressMessage()" />
+			</div>
+		</div>
+		<br />
+	</div>
+	<br />
+}
+
+<div id="ProgMessageDiv" class="collapse ProgressMessage">
+	<p>In progress...</p>
+</div>
+
+@section Scripts {
+	@Scripts.Render("~/bundles/jqueryval")
+}

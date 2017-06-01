@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PowerStations_datModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="PowerReading00">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReadingMinute" Type="Byte" Nullable="false" />
+    <Property Name="ReadingSecond" Type="Byte" Nullable="false" />
+    <Property Name="Station01PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station02PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station03PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station04PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station05PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station06PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station07PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station08PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station09PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station10PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PowerStation">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Location" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Online" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="PowerStations_datEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="PowerReading00" EntityType="Self.PowerReading00" />
+    <EntitySet Name="PowerStations" EntityType="Self.PowerStation" />
+  </EntityContainer>
+</Schema>

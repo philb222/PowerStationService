@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PowerStations_datModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="PowerReading00">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReadingMinute" Type="Byte" Nullable="false" />
+    <Property Name="ReadingSecond" Type="Byte" Nullable="false" />
+    <Property Name="Station01PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station02PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station03PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station04PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station05PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station06PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station07PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station08PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station09PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station10PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PowerReading01">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReadingMinute" Type="Byte" Nullable="false" />
+    <Property Name="ReadingSecond" Type="Byte" Nullable="false" />
+    <Property Name="Station01PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station02PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station03PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station04PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station05PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station06PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station07PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station08PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station09PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station10PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PowerReading02">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReadingMinute" Type="Byte" Nullable="false" />
+    <Property Name="ReadingSecond" Type="Byte" Nullable="false" />
+    <Property Name="Station01PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station02PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station03PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station04PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station05PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station06PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station07PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station08PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station09PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station10PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PowerReading03">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReadingMinute" Type="Byte" Nullable="false" />
+    <Property Name="ReadingSecond" Type="Byte" Nullable="false" />
+    <Property Name="Station01PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station02PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station03PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station04PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station05PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station06PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station07PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station08PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station09PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station10PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PowerReading04">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReadingMinute" Type="Byte" Nullable="false" />
+    <Property Name="ReadingSecond" Type="Byte" Nullable="false" />
+    <Property Name="Station01PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station02PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station03PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station04PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station05PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station06PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station07PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station08PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station09PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station10PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PowerReading05">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReadingMinute" Type="Byte" Nullable="false" />
+    <Property Name="ReadingSecond" Type="Byte" Nullable="false" />
+    <Property Name="Station01PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station02PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station03PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station04PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station05PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station06PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station07PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station08PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station09PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station10PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PowerReading06">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReadingMinute" Type="Byte" Nullable="false" />
+    <Property Name="ReadingSecond" Type="Byte" Nullable="false" />
+    <Property Name="Station01PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station02PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station03PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station04PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station05PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station06PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station07PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station08PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station09PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station10PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PowerReading07">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReadingMinute" Type="Byte" Nullable="false" />
+    <Property Name="ReadingSecond" Type="Byte" Nullable="false" />
+    <Property Name="Station01PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station02PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station03PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station04PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station05PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station06PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station07PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station08PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station09PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station10PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PowerReading08">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReadingMinute" Type="Byte" Nullable="false" />
+    <Property Name="ReadingSecond" Type="Byte" Nullable="false" />
+    <Property Name="Station01PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station02PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station03PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station04PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station05PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station06PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station07PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station08PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station09PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station10PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PowerReading09">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReadingMinute" Type="Byte" Nullable="false" />
+    <Property Name="ReadingSecond" Type="Byte" Nullable="false" />
+    <Property Name="Station01PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station02PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station03PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station04PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station05PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station06PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station07PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station08PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station09PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station10PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PowerReading10">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReadingMinute" Type="Byte" Nullable="false" />
+    <Property Name="ReadingSecond" Type="Byte" Nullable="false" />
+    <Property Name="Station01PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station02PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station03PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station04PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station05PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station06PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station07PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station08PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station09PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station10PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PowerReading11">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReadingMinute" Type="Byte" Nullable="false" />
+    <Property Name="ReadingSecond" Type="Byte" Nullable="false" />
+    <Property Name="Station01PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station02PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station03PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station04PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station05PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station06PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station07PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station08PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station09PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station10PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PowerReading12">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReadingMinute" Type="Byte" Nullable="false" />
+    <Property Name="ReadingSecond" Type="Byte" Nullable="false" />
+    <Property Name="Station01PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station02PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station03PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station04PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station05PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station06PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station07PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station08PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station09PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station10PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PowerReading13">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReadingMinute" Type="Byte" Nullable="false" />
+    <Property Name="ReadingSecond" Type="Byte" Nullable="false" />
+    <Property Name="Station01PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station02PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station03PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station04PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station05PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station06PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station07PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station08PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station09PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station10PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PowerReading14">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReadingMinute" Type="Byte" Nullable="false" />
+    <Property Name="ReadingSecond" Type="Byte" Nullable="false" />
+    <Property Name="Station01PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station02PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station03PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station04PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station05PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station06PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station07PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station08PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station09PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station10PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PowerReading15">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReadingMinute" Type="Byte" Nullable="false" />
+    <Property Name="ReadingSecond" Type="Byte" Nullable="false" />
+    <Property Name="Station01PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station02PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station03PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station04PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station05PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station06PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station07PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station08PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station09PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station10PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PowerReading16">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReadingMinute" Type="Byte" Nullable="false" />
+    <Property Name="ReadingSecond" Type="Byte" Nullable="false" />
+    <Property Name="Station01PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station02PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station03PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station04PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station05PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station06PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station07PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station08PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station09PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station10PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PowerReading17">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReadingMinute" Type="Byte" Nullable="false" />
+    <Property Name="ReadingSecond" Type="Byte" Nullable="false" />
+    <Property Name="Station01PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station02PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station03PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station04PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station05PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station06PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station07PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station08PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station09PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station10PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PowerReading18">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReadingMinute" Type="Byte" Nullable="false" />
+    <Property Name="ReadingSecond" Type="Byte" Nullable="false" />
+    <Property Name="Station01PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station02PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station03PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station04PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station05PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station06PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station07PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station08PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station09PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station10PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PowerReading19">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReadingMinute" Type="Byte" Nullable="false" />
+    <Property Name="ReadingSecond" Type="Byte" Nullable="false" />
+    <Property Name="Station01PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station02PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station03PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station04PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station05PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station06PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station07PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station08PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station09PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station10PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PowerReading20">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReadingMinute" Type="Byte" Nullable="false" />
+    <Property Name="ReadingSecond" Type="Byte" Nullable="false" />
+    <Property Name="Station01PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station02PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station03PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station04PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station05PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station06PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station07PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station08PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station09PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station10PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PowerReading21">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReadingMinute" Type="Byte" Nullable="false" />
+    <Property Name="ReadingSecond" Type="Byte" Nullable="false" />
+    <Property Name="Station01PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station02PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station03PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station04PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station05PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station06PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station07PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station08PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station09PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station10PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PowerReading22">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReadingMinute" Type="Byte" Nullable="false" />
+    <Property Name="ReadingSecond" Type="Byte" Nullable="false" />
+    <Property Name="Station01PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station02PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station03PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station04PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station05PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station06PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station07PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station08PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station09PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station10PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PowerReading23">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReadingMinute" Type="Byte" Nullable="false" />
+    <Property Name="ReadingSecond" Type="Byte" Nullable="false" />
+    <Property Name="Station01PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station02PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station03PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station04PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station05PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station06PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station07PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station08PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station09PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+    <Property Name="Station10PowerUsage" Type="Decimal" Precision="7" Scale="3" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PowerStation">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Location" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Online" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="PowerStations_datEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="PowerReading00" EntityType="Self.PowerReading00" />
+    <EntitySet Name="PowerReading01" EntityType="Self.PowerReading01" />
+    <EntitySet Name="PowerReading02" EntityType="Self.PowerReading02" />
+    <EntitySet Name="PowerReading03" EntityType="Self.PowerReading03" />
+    <EntitySet Name="PowerReading04" EntityType="Self.PowerReading04" />
+    <EntitySet Name="PowerReading05" EntityType="Self.PowerReading05" />
+    <EntitySet Name="PowerReading06" EntityType="Self.PowerReading06" />
+    <EntitySet Name="PowerReading07" EntityType="Self.PowerReading07" />
+    <EntitySet Name="PowerReading08" EntityType="Self.PowerReading08" />
+    <EntitySet Name="PowerReading09" EntityType="Self.PowerReading09" />
+    <EntitySet Name="PowerReading10" EntityType="Self.PowerReading10" />
+    <EntitySet Name="PowerReading11" EntityType="Self.PowerReading11" />
+    <EntitySet Name="PowerReading12" EntityType="Self.PowerReading12" />
+    <EntitySet Name="PowerReading13" EntityType="Self.PowerReading13" />
+    <EntitySet Name="PowerReading14" EntityType="Self.PowerReading14" />
+    <EntitySet Name="PowerReading15" EntityType="Self.PowerReading15" />
+    <EntitySet Name="PowerReading16" EntityType="Self.PowerReading16" />
+    <EntitySet Name="PowerReading17" EntityType="Self.PowerReading17" />
+    <EntitySet Name="PowerReading18" EntityType="Self.PowerReading18" />
+    <EntitySet Name="PowerReading19" EntityType="Self.PowerReading19" />
+    <EntitySet Name="PowerReading20" EntityType="Self.PowerReading20" />
+    <EntitySet Name="PowerReading21" EntityType="Self.PowerReading21" />
+    <EntitySet Name="PowerReading22" EntityType="Self.PowerReading22" />
+    <EntitySet Name="PowerReading23" EntityType="Self.PowerReading23" />
+    <EntitySet Name="PowerStations" EntityType="Self.PowerStation" />
+  </EntityContainer>
+</Schema>
